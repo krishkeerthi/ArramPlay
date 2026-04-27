@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><resources>
+
+    <string name="app_name">Permainan Arram</string>
+
+    <string name="about_us">Tentang Kami</string>
+
+    <string name="app_icon">Ikon Aplikasi</string>
+
+    <string name="back_arrow">Panah kembali</string>
+
+    <string name="youtube">Youtube</string>
+
+    <string name="instagram">Instagram</string>
+
+    <string name="email_at">Email di</string>
+
+    <string name="contact_us">Hubungi kami</string>
+
+    <string name="tv_image">Gambar TV</string>
+
+    <string name="app_description">Kami berdedikasi untuk memberikan pengalaman terbaik bagi pemirsa kami. Jangan ragu untuk menghubungi kami!</string>
+
+    <string name="rights_reserved">Hak cipta © 2024 Arram Play. Hak Cipta Dilindungi Undang-Undang.</string>
+
+</resources>

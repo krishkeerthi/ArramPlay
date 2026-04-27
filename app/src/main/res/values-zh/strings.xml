@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><resources>
+
+    <string name="app_name">阿拉姆游戏</string>
+
+    <string name="about_us">关于我们</string>
+
+    <string name="app_icon">应用程序图标</string>
+
+    <string name="back_arrow">返回箭头</string>
+
+    <string name="youtube">YouTube</string>
+
+    <string name="instagram">Instagram</string>
+
+    <string name="email_at">邮箱</string>
+
+    <string name="contact_us">联系我们</string>
+
+    <string name="tv_image">电视图像</string>
+
+    <string name="app_description">我们致力于为观众提供最佳体验。欢迎随时联系我们！</string>
+
+    <string name="rights_reserved">© 2024 阿拉姆游戏。版权所有。</string>
+
+</resources>

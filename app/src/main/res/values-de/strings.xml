@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><resources>
+
+    <string name="app_name">Arram-Spiel</string>
+
+    <string name="about_us">Über uns</string>
+
+    <string name="app_icon">App-Symbol</string>
+
+    <string name="back_arrow">Zurück-Pfeil</string>
+
+    <string name="youtube">Youtube</string>
+
+    <string name="instagram">Instagram</string>
+
+    <string name="email_at">E-Mail an</string>
+
+    <string name="contact_us">Kontaktieren Sie uns</string>
+
+    <string name="tv_image">TV-Bild</string>
+
+    <string name="app_description">Wir sind bestrebt, unseren Zuschauern das beste Erlebnis zu bieten. Melden Sie sich gerne!</string>
+
+    <string name="rights_reserved">© 2024 Arram Play. Alle Rechte vorbehalten.</string>
+
+</resources>

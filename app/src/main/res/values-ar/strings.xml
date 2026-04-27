@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><resources>
+
+    <string name="app_name">أرام بلاي</string>
+
+    <string name="about_us">معلومات عنا</string>
+
+    <string name="app_icon">أيقونة التطبيق</string>
+
+    <string name="back_arrow">السهم الخلفي</string>
+
+    <string name="youtube">يوتيوب</string>
+
+    <string name="instagram">إنستغرام</string>
+
+    <string name="email_at">البريد الإلكتروني على</string>
+
+    <string name="contact_us">اتصل بنا</string>
+
+    <string name="tv_image">صورة تلفزيونية</string>
+
+    <string name="app_description">نحن ملتزمون بتقديم أفضل تجربة لمشاهدينا. لا تتردد في التواصل معنا!</string>
+
+    <string name="rights_reserved">© 2024 أرام بلاي. جميع الحقوق محفوظة.</string>
+
+</resources>

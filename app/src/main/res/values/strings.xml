@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Arram Play</string>
+    <string name="about_us">"About Us"</string>
+    <string name="app_icon">"App Icon"</string>
+    <string name="back_arrow">"Back arrow"</string>
+    <string name="youtube">"Youtube"</string>
+    <string name="instagram">"Instagram"</string>
+    <string name="email_at">"Email at"</string>
+    <string name="contact_us">"Contact Us"</string>
+    <string name="tv_image">""TV Image""</string>
+    <string name="app_description">"We are dedicated to providing the best experience for our viewers. Feel free to reach out!"</string>
+    <string name="rights_reserved">"© 2024 Arram Play. All Rights Reserved."</string>
+</resources>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><resources>
+
+    <string name="app_name">अर्रम प्ले</string>
+
+    <string name="about_us">हमारे बारे में</string>
+
+    <string name="app_icon">ऐप आइकन</string>
+
+    <string name="back_arrow">पीछे तीर</string>
+
+    <string name="youtube">यूट्यूब</string>
+
+    <string name="instagram">Instagram</string>
+
+    <string name="email_at">ईमेल करें</string>
+
+    <string name="contact_us">हमसे संपर्क करें</string>
+
+    <string name="tv_image">टीवी छवि</string>
+
+    <string name="app_description">हम अपने दर्शकों को सर्वोत्तम अनुभव प्रदान करने के लिए समर्पित हैं. बेझिझक संपर्क करें!</string>
+
+    <string name="rights_reserved">© 2024 अर्रम प्ले. सर्वाधिकार सुरक्षित.</string>
+
+</resources>

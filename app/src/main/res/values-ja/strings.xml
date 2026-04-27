@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><resources>
+
+    <string name="app_name">アラムプレイ</string>
+
+    <string name="about_us">私たちについて</string>
+
+    <string name="app_icon">アプリアイコン</string>
+
+    <string name="back_arrow">戻る矢印</string>
+
+    <string name="youtube">ユーチューブ</string>
+
+    <string name="instagram">インスタグラム</string>
+
+    <string name="email_at">メールアドレス</string>
+
+    <string name="contact_us">お問い合わせ</string>
+
+    <string name="tv_image">テレビ画像</string>
+
+    <string name="app_description">私たちは視聴者に最高の体験を提供することに全力を尽くしています。お気軽にお問い合わせください！</string>
+
+    <string name="rights_reserved">© 2024 アラムプレイ。無断転載を禁じます。</string>
+
+</resources>

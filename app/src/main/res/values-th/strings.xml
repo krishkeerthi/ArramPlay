@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><resources>
+
+    <string name="app_name">อาร์เรย์เพลย์</string>
+
+    <string name="about_us">เกี่ยวกับเรา</string>
+
+    <string name="app_icon">ไอคอนแอป</string>
+
+    <string name="back_arrow">ลูกศรย้อนกลับ</string>
+
+    <string name="youtube">ยูทูป</string>
+
+    <string name="instagram">อินสตาแกรม</string>
+
+    <string name="email_at">อีเมล์ที่</string>
+
+    <string name="contact_us">ติดต่อเรา</string>
+
+    <string name="tv_image">ภาพทีวี</string>
+
+    <string name="app_description">เรามุ่งมั่นที่จะมอบประสบการณ์ที่ดีที่สุดให้กับผู้ชมของเรา รู้สึกอิสระที่จะติดต่อมา!</string>
+
+    <string name="rights_reserved">© 2024 เล่นเกม Arram สงวนลิขสิทธิ์.</string>
+
+</resources>

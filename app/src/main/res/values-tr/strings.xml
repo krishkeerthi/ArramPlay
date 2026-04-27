@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><resources>
+
+    <string name="app_name">Arram Oyunu</string>
+
+    <string name="about_us">Hakkımızda</string>
+
+    <string name="app_icon">Uygulama simgesi</string>
+
+    <string name="back_arrow">Geri ok</string>
+
+    <string name="youtube">Youtube</string>
+
+    <string name="instagram">Instagram</string>
+
+    <string name="email_at">E-posta adresi:</string>
+
+    <string name="contact_us">Bize Ulaşın</string>
+
+    <string name="tv_image">TV Görüntüsü</string>
+
+    <string name="app_description">İzleyicilerimize en iyi deneyimi sunmaya adadık kendimizi. Bize ulaşmaktan çekinmeyin!</string>
+
+    <string name="rights_reserved">© 2024 Arram Play. Her hakkı saklıdır.</string>
+
+</resources>

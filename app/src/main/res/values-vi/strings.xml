@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><resources>
+
+    <string name="app_name">Arram chơi</string>
+
+    <string name="about_us">Giới thiệu về chúng tôi</string>
+
+    <string name="app_icon">Biểu tượng ứng dụng</string>
+
+    <string name="back_arrow">Mũi tên quay lại</string>
+
+    <string name="youtube">Youtube</string>
+
+    <string name="instagram">Instagram</string>
+
+    <string name="email_at">Gửi email đến</string>
+
+    <string name="contact_us">Liên hệ với chúng tôi</string>
+
+    <string name="tv_image">Hình ảnh truyền hình</string>
+
+    <string name="app_description">Chúng tôi cam kết mang đến trải nghiệm tốt nhất cho người xem. Hãy thoải mái liên hệ với chúng tôi!</string>
+
+    <string name="rights_reserved">© 2024 Arram Play. Mọi quyền được bảo lưu.</string>
+
+</resources>

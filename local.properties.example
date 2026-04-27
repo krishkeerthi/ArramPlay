@@ -1,0 +1,12 @@
+# Copy this file to local.properties and fill in real values.
+# local.properties is gitignored — values you put there will never reach the repo.
+
+# Android SDK location (Android Studio writes this for you)
+sdk.dir=/path/to/Android/sdk
+
+# RTMP stream configuration. Required by app/build.gradle.kts → BuildConfig.
+RTMP_HOST=host:port
+RTMP_DOMAIN=example.com
+RTMP_PATH_ARRAM=path/livetv
+RTMP_PATH_RR=path/livetv
+RTMP_PATH_LIVEUPDATES=path/livetv

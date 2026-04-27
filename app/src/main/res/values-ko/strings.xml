@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><resources>
+
+    <string name="app_name">아람 플레이</string>
+
+    <string name="about_us">회사 소개</string>
+
+    <string name="app_icon">앱 아이콘</string>
+
+    <string name="back_arrow">뒤로 화살표</string>
+
+    <string name="youtube">유튜브</string>
+
+    <string name="instagram">인스타그램</string>
+
+    <string name="email_at">이메일로</string>
+
+    <string name="contact_us">문의하기</string>
+
+    <string name="tv_image">TV 이미지</string>
+
+    <string name="app_description">저희는 시청자 여러분께 최고의 경험을 제공하기 위해 최선을 다하고 있습니다. 언제든지 문의하세요!</string>
+
+    <string name="rights_reserved">© 2024 아람 플레이. 모든 권리는 보호됩니다.</string>
+
+</resources>

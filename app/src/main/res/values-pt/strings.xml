@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><resources>
+
+    <string name="app_name">Jogo Arram</string>
+
+    <string name="about_us">Sobre nós</string>
+
+    <string name="app_icon">Ícone do aplicativo</string>
+
+    <string name="back_arrow">Seta para trás</string>
+
+    <string name="youtube">YouTube</string>
+
+    <string name="instagram">Instagram</string>
+
+    <string name="email_at">E-mail em</string>
+
+    <string name="contact_us">Contate-nos</string>
+
+    <string name="tv_image">Imagem de TV</string>
+
+    <string name="app_description">Estamos dedicados a proporcionar a melhor experiência para nossos espectadores. Sinta-se à vontade para entrar em contato!</string>
+
+    <string name="rights_reserved">© 2024 Arram Play. Todos os direitos reservados.</string>
+
+</resources>

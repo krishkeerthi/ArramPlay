@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="text_size">18sp</dimen>
+    <dimen name="rights_reserved_text_size">12sp</dimen>
+    <dimen name="about_us_text_size">24sp</dimen>
+    <dimen name="app_description_text_size">16sp</dimen>
+    <dimen name="about_us_social_text_size">16sp</dimen>
+    <dimen name="fab_button_size">48dp</dimen>
+    <dimen name="fab_icon_size">32dp</dimen>
+    <dimen name="tv_width">280dp</dimen>
+    <dimen name="tv_height">200dp</dimen>
+    <dimen name="tv_padding">16dp</dimen>
+    <dimen name="back_icon_padding_horizontal">24dp</dimen>
+    <dimen name="back_icon_padding_vertical">32dp</dimen>
+    <dimen name="social_icon_size">32dp</dimen>
+    <dimen name="spacer">16dp</dimen>
+    <dimen name="about_us_icon_size">120dp</dimen>
+    <dimen name="about_us_icon_padding">24dp</dimen>
+
+</resources>
