@@ -21,8 +21,8 @@ android {
         applicationId = "com.krish.videoplayer"
         minSdk = 24
         targetSdk = 36
-        versionCode = 11
-        versionName = "2.5"
+        versionCode = 12
+        versionName = "2.7"
 
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
         vectorDrawables {
@@ -59,7 +59,7 @@ android {
         // achieved by giving the tv flavor a non-overlapping versionCode range.
         create("mobile") {
             dimension = "formFactor"
-            // versionCode inherited from defaultConfig (currently 11).
+            // versionCode inherited from defaultConfig (currently 12).
         }
         create("tv") {
             dimension = "formFactor"
@@ -67,7 +67,6 @@ android {
             // bump defaultConfig.versionCode for mobile, this expression auto-tracks.
             // Bump this offset to release a tv-only build without touching mobile.
             versionCode = (defaultConfig.versionCode ?: 1) + 10_001
-            versionName = "2.6-tv"
         }
     }
     compileOptions {
