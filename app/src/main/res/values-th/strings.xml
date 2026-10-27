@@ -6,20 +6,119 @@
 
     <string name="app_icon">ไอคอนแอป</string>
 
-    <string name="back_arrow">ลูกศรย้อนกลับ</string>
+    <string name="back_arrow">กลับ</string>
 
     <string name="youtube">ยูทูป</string>
 
     <string name="instagram">อินสตาแกรม</string>
 
-    <string name="email_at">อีเมล์ที่</string>
+    <string name="email_at">ส่งอีเมลถึงเรา</string>
 
-    <string name="contact_us">ติดต่อเรา</string>
+    <string name="contact_us">โทรหาเรา</string>
 
     <string name="tv_image">ภาพทีวี</string>
 
     <string name="app_description">เรามุ่งมั่นที่จะมอบประสบการณ์ที่ดีที่สุดให้กับผู้ชมของเรา รู้สึกอิสระที่จะติดต่อมา!</string>
 
-    <string name="rights_reserved">© 2024 เล่นเกม Arram สงวนลิขสิทธิ์.</string>
+    <string name="rights_reserved">© %1$d เล่นเกม Arram สงวนลิขสิทธิ์.</string>
 
+    <string name="channel_arram">Arram TV</string>
+
+    <string name="channel_rr">RR Channel</string>
+
+    <string name="channel_live_updates">อัปเดตสด</string>
+
+    <string name="channel_number">ช่อง %1$d</string>
+
+    <string name="channel_subtitle">ช่อง %1$d · กำลังถ่ายทอดสด</string>
+
+    <string name="live">สด</string>
+
+    <string name="featured">แนะนำ</string>
+
+    <string name="continue_watching">ดูต่อ</string>
+
+    <string name="all_channels">ช่อง</string>
+
+    <string name="watch_now">ดูเลย</string>
+
+    <string name="offline_message">คุณออฟไลน์อยู่ โปรดตรวจสอบการเชื่อมต่ออินเทอร์เน็ต</string>
+
+    <string name="play">เล่น</string>
+
+    <string name="pause">หยุดชั่วคราว</string>
+
+    <string name="next_channel">ช่องถัดไป</string>
+
+    <string name="previous_channel">ช่องก่อนหน้า</string>
+
+    <string name="picture_in_picture">การแสดงภาพซ้อนภาพ</string>
+
+    <string name="video_scale_cycle">การปรับขนาดวิดีโอ: %1$s</string>
+
+    <string name="reconnecting">กำลังเชื่อมต่ออีกครั้ง…</string>
+
+    <string name="waiting_for_network">กำลังรอเครือข่าย…</string>
+
+    <string name="playback_error_title">เล่นช่องนี้ไม่ได้</string>
+
+    <string name="playback_error_message">สตรีมไม่พร้อมใช้งานในขณะนี้ โปรดลองอีกครั้งในอีกสักครู่</string>
+
+    <string name="retry">ลองอีกครั้ง</string>
+
+    <string name="back">กลับ</string>
+
+    <string name="settings">การตั้งค่า</string>
+
+    <string name="appearance">ลักษณะที่ปรากฏ</string>
+
+    <string name="theme">ธีม</string>
+
+    <string name="theme_system">ระบบ</string>
+
+    <string name="theme_light">สว่าง</string>
+
+    <string name="theme_dark">มืด</string>
+
+    <string name="dynamic_color">สีแบบไดนามิก</string>
+
+    <string name="dynamic_color_summary">ใช้สีจากวอลเปเปอร์ของคุณ</string>
+
+    <string name="playback">การเล่น</string>
+
+    <string name="video_scale">การปรับขนาดวิดีโอ</string>
+
+    <string name="video_scale_fit">พอดี</string>
+
+    <string name="video_scale_fill">ยืด</string>
+
+    <string name="video_scale_zoom">ครอบตัด</string>
+
+    <string name="resume_last_channel">เล่นช่องล่าสุดต่อ</string>
+
+    <string name="resume_last_channel_summary">เริ่มเล่นช่องที่ดูล่าสุดเมื่อเปิดแอป</string>
+
+    <string name="auto_pip">การแสดงภาพซ้อนภาพ</string>
+
+    <string name="auto_pip_summary">ดูต่อในหน้าต่างเล็กเมื่อคุณออกจากแอป</string>
+
+    <string name="about">เกี่ยวกับ</string>
+
+    <string name="contact_support">ติดต่อและการสนับสนุน</string>
+
+    <string name="rate_app">ให้คะแนนแอป</string>
+
+    <string name="share_app">แชร์แอป</string>
+
+    <string name="share_text">ดูช่องสดบน Arram Play: %1$s</string>
+
+    <string name="version">เวอร์ชัน</string>
+
+    <string name="version_label">เวอร์ชัน %1$s</string>
+
+    <string name="no_app_found">ไม่พบแอปที่จะดำเนินการนี้</string>
+
+    <string name="no_app_found_for">ไม่พบแอปที่จะเปิด %1$s</string>
+
+    <string name="loading">กำลังโหลด…</string>
 </resources>

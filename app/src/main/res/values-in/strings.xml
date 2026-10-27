@@ -6,20 +6,119 @@
 
     <string name="app_icon">Ikon Aplikasi</string>
 
-    <string name="back_arrow">Panah kembali</string>
+    <string name="back_arrow">Kembali</string>
 
     <string name="youtube">Youtube</string>
 
     <string name="instagram">Instagram</string>
 
-    <string name="email_at">Email di</string>
+    <string name="email_at">Kirim email</string>
 
-    <string name="contact_us">Hubungi kami</string>
+    <string name="contact_us">Telepon kami</string>
 
     <string name="tv_image">Gambar TV</string>
 
     <string name="app_description">Kami berdedikasi untuk memberikan pengalaman terbaik bagi pemirsa kami. Jangan ragu untuk menghubungi kami!</string>
 
-    <string name="rights_reserved">Hak cipta © 2024 Arram Play. Hak Cipta Dilindungi Undang-Undang.</string>
+    <string name="rights_reserved">Hak cipta © %1$d Arram Play. Hak Cipta Dilindungi Undang-Undang.</string>
 
+    <string name="channel_arram">Arram TV</string>
+
+    <string name="channel_rr">RR Channel</string>
+
+    <string name="channel_live_updates">Info Langsung</string>
+
+    <string name="channel_number">Saluran %1$d</string>
+
+    <string name="channel_subtitle">Saluran %1$d · Siaran langsung sekarang</string>
+
+    <string name="live">LIVE</string>
+
+    <string name="featured">Unggulan</string>
+
+    <string name="continue_watching">Lanjutkan menonton</string>
+
+    <string name="all_channels">Saluran</string>
+
+    <string name="watch_now">Tonton sekarang</string>
+
+    <string name="offline_message">Anda sedang offline. Periksa koneksi internet Anda.</string>
+
+    <string name="play">Putar</string>
+
+    <string name="pause">Jeda</string>
+
+    <string name="next_channel">Saluran berikutnya</string>
+
+    <string name="previous_channel">Saluran sebelumnya</string>
+
+    <string name="picture_in_picture">Picture-in-picture</string>
+
+    <string name="video_scale_cycle">Skala video: %1$s</string>
+
+    <string name="reconnecting">Menghubungkan ulang…</string>
+
+    <string name="waiting_for_network">Menunggu jaringan…</string>
+
+    <string name="playback_error_title">Tidak dapat memutar saluran ini</string>
+
+    <string name="playback_error_message">Streaming tidak tersedia saat ini. Coba lagi sebentar lagi.</string>
+
+    <string name="retry">Coba lagi</string>
+
+    <string name="back">Kembali</string>
+
+    <string name="settings">Setelan</string>
+
+    <string name="appearance">Tampilan</string>
+
+    <string name="theme">Tema</string>
+
+    <string name="theme_system">Sistem</string>
+
+    <string name="theme_light">Terang</string>
+
+    <string name="theme_dark">Gelap</string>
+
+    <string name="dynamic_color">Warna dinamis</string>
+
+    <string name="dynamic_color_summary">Gunakan warna dari wallpaper Anda</string>
+
+    <string name="playback">Pemutaran</string>
+
+    <string name="video_scale">Skala video</string>
+
+    <string name="video_scale_fit">Pas</string>
+
+    <string name="video_scale_fill">Rentang</string>
+
+    <string name="video_scale_zoom">Pangkas</string>
+
+    <string name="resume_last_channel">Lanjutkan saluran terakhir</string>
+
+    <string name="resume_last_channel_summary">Putar saluran yang terakhir ditonton saat aplikasi dibuka</string>
+
+    <string name="auto_pip">Picture-in-picture</string>
+
+    <string name="auto_pip_summary">Terus menonton di jendela kecil saat Anda keluar dari aplikasi</string>
+
+    <string name="about">Tentang</string>
+
+    <string name="contact_support">Kontak &amp; dukungan</string>
+
+    <string name="rate_app">Beri rating aplikasi</string>
+
+    <string name="share_app">Bagikan aplikasi</string>
+
+    <string name="share_text">Tonton saluran live Arram Play: %1$s</string>
+
+    <string name="version">Versi</string>
+
+    <string name="version_label">Versi %1$s</string>
+
+    <string name="no_app_found">Tidak ada aplikasi untuk menyelesaikan tindakan ini</string>
+
+    <string name="no_app_found_for">Tidak ada aplikasi untuk membuka %1$s</string>
+
+    <string name="loading">Memuat…</string>
 </resources>

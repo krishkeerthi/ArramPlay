@@ -6,20 +6,119 @@
 
     <string name="app_icon">Biểu tượng ứng dụng</string>
 
-    <string name="back_arrow">Mũi tên quay lại</string>
+    <string name="back_arrow">Quay lại</string>
 
     <string name="youtube">Youtube</string>
 
     <string name="instagram">Instagram</string>
 
-    <string name="email_at">Gửi email đến</string>
+    <string name="email_at">Gửi email cho chúng tôi</string>
 
-    <string name="contact_us">Liên hệ với chúng tôi</string>
+    <string name="contact_us">Gọi cho chúng tôi</string>
 
     <string name="tv_image">Hình ảnh truyền hình</string>
 
     <string name="app_description">Chúng tôi cam kết mang đến trải nghiệm tốt nhất cho người xem. Hãy thoải mái liên hệ với chúng tôi!</string>
 
-    <string name="rights_reserved">© 2024 Arram Play. Mọi quyền được bảo lưu.</string>
+    <string name="rights_reserved">© %1$d Arram Play. Mọi quyền được bảo lưu.</string>
 
+    <string name="channel_arram">Arram TV</string>
+
+    <string name="channel_rr">RR Channel</string>
+
+    <string name="channel_live_updates">Tin trực tiếp</string>
+
+    <string name="channel_number">Kênh %1$d</string>
+
+    <string name="channel_subtitle">Kênh %1$d · Đang phát trực tiếp</string>
+
+    <string name="live">TRỰC TIẾP</string>
+
+    <string name="featured">Nổi bật</string>
+
+    <string name="continue_watching">Xem tiếp</string>
+
+    <string name="all_channels">Kênh</string>
+
+    <string name="watch_now">Xem ngay</string>
+
+    <string name="offline_message">Bạn đang ngoại tuyến. Hãy kiểm tra kết nối Internet.</string>
+
+    <string name="play">Phát</string>
+
+    <string name="pause">Tạm dừng</string>
+
+    <string name="next_channel">Kênh tiếp theo</string>
+
+    <string name="previous_channel">Kênh trước</string>
+
+    <string name="picture_in_picture">Hình trong hình</string>
+
+    <string name="video_scale_cycle">Tỷ lệ video: %1$s</string>
+
+    <string name="reconnecting">Đang kết nối lại…</string>
+
+    <string name="waiting_for_network">Đang chờ mạng…</string>
+
+    <string name="playback_error_title">Không thể phát kênh này</string>
+
+    <string name="playback_error_message">Luồng phát hiện không khả dụng. Vui lòng thử lại sau giây lát.</string>
+
+    <string name="retry">Thử lại</string>
+
+    <string name="back">Quay lại</string>
+
+    <string name="settings">Cài đặt</string>
+
+    <string name="appearance">Giao diện</string>
+
+    <string name="theme">Chủ đề</string>
+
+    <string name="theme_system">Hệ thống</string>
+
+    <string name="theme_light">Sáng</string>
+
+    <string name="theme_dark">Tối</string>
+
+    <string name="dynamic_color">Màu động</string>
+
+    <string name="dynamic_color_summary">Dùng màu từ hình nền của bạn</string>
+
+    <string name="playback">Phát lại</string>
+
+    <string name="video_scale">Tỷ lệ video</string>
+
+    <string name="video_scale_fit">Vừa</string>
+
+    <string name="video_scale_fill">Kéo giãn</string>
+
+    <string name="video_scale_zoom">Cắt</string>
+
+    <string name="resume_last_channel">Tiếp tục kênh cuối</string>
+
+    <string name="resume_last_channel_summary">Phát kênh đã xem gần nhất khi mở ứng dụng</string>
+
+    <string name="auto_pip">Hình trong hình</string>
+
+    <string name="auto_pip_summary">Tiếp tục xem trong cửa sổ nhỏ khi bạn rời khỏi ứng dụng</string>
+
+    <string name="about">Giới thiệu</string>
+
+    <string name="contact_support">Liên hệ &amp; hỗ trợ</string>
+
+    <string name="rate_app">Đánh giá ứng dụng</string>
+
+    <string name="share_app">Chia sẻ ứng dụng</string>
+
+    <string name="share_text">Xem các kênh trực tiếp trên Arram Play: %1$s</string>
+
+    <string name="version">Phiên bản</string>
+
+    <string name="version_label">Phiên bản %1$s</string>
+
+    <string name="no_app_found">Không tìm thấy ứng dụng để thực hiện thao tác này</string>
+
+    <string name="no_app_found_for">Không tìm thấy ứng dụng để mở %1$s</string>
+
+    <string name="loading">Đang tải…</string>
 </resources>

@@ -1,0 +1,5 @@
+/build
+
+# Signed bundles exported by Android Studio (Build > Generate Signed Bundle)
+/mobile/
+/tv/

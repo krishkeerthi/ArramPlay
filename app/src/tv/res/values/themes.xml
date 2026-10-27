@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- TV-flavor override for Theme.VideoPlayer: TVs default to the dark theme, so the
+         cold-start frame is dark rather than white before Compose paints. -->
+    <style name="Theme.VideoPlayer" parent="@android:style/Theme.Material.NoActionBar">
+        <item name="android:windowBackground">#FF111111</item>
+        <item name="android:colorBackground">#FF111111</item>
+    </style>
+</resources>

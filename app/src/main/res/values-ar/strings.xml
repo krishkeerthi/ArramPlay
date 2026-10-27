@@ -6,13 +6,13 @@
 
     <string name="app_icon">أيقونة التطبيق</string>
 
-    <string name="back_arrow">السهم الخلفي</string>
+    <string name="back_arrow">رجوع</string>
 
     <string name="youtube">يوتيوب</string>
 
     <string name="instagram">إنستغرام</string>
 
-    <string name="email_at">البريد الإلكتروني على</string>
+    <string name="email_at">راسلنا عبر البريد الإلكتروني</string>
 
     <string name="contact_us">اتصل بنا</string>
 
@@ -20,6 +20,105 @@
 
     <string name="app_description">نحن ملتزمون بتقديم أفضل تجربة لمشاهدينا. لا تتردد في التواصل معنا!</string>
 
-    <string name="rights_reserved">© 2024 أرام بلاي. جميع الحقوق محفوظة.</string>
+    <string name="rights_reserved">© %1$d أرام بلاي. جميع الحقوق محفوظة.</string>
 
+    <string name="channel_arram">Arram TV</string>
+
+    <string name="channel_rr">RR Channel</string>
+
+    <string name="channel_live_updates">تحديثات مباشرة</string>
+
+    <string name="channel_number">القناة %1$d</string>
+
+    <string name="channel_subtitle">القناة %1$d · بث مباشر الآن</string>
+
+    <string name="live">مباشر</string>
+
+    <string name="featured">مميز</string>
+
+    <string name="continue_watching">متابعة المشاهدة</string>
+
+    <string name="all_channels">القنوات</string>
+
+    <string name="watch_now">شاهد الآن</string>
+
+    <string name="offline_message">أنت غير متصل بالإنترنت. تحقق من اتصالك بالإنترنت.</string>
+
+    <string name="play">تشغيل</string>
+
+    <string name="pause">إيقاف مؤقت</string>
+
+    <string name="next_channel">القناة التالية</string>
+
+    <string name="previous_channel">القناة السابقة</string>
+
+    <string name="picture_in_picture">صورة داخل صورة</string>
+
+    <string name="video_scale_cycle">حجم الفيديو: %1$s</string>
+
+    <string name="reconnecting">جارٍ إعادة الاتصال…</string>
+
+    <string name="waiting_for_network">في انتظار الشبكة…</string>
+
+    <string name="playback_error_title">يتعذر تشغيل هذه القناة</string>
+
+    <string name="playback_error_message">البث غير متاح حاليًا. يُرجى المحاولة مرة أخرى بعد قليل.</string>
+
+    <string name="retry">إعادة المحاولة</string>
+
+    <string name="back">رجوع</string>
+
+    <string name="settings">الإعدادات</string>
+
+    <string name="appearance">المظهر</string>
+
+    <string name="theme">السمة</string>
+
+    <string name="theme_system">النظام</string>
+
+    <string name="theme_light">فاتح</string>
+
+    <string name="theme_dark">داكن</string>
+
+    <string name="dynamic_color">ألوان ديناميكية</string>
+
+    <string name="dynamic_color_summary">استخدام ألوان الخلفية لديك</string>
+
+    <string name="playback">التشغيل</string>
+
+    <string name="video_scale">حجم الفيديو</string>
+
+    <string name="video_scale_fit">ملاءمة</string>
+
+    <string name="video_scale_fill">تمديد</string>
+
+    <string name="video_scale_zoom">اقتصاص</string>
+
+    <string name="resume_last_channel">استئناف آخر قناة</string>
+
+    <string name="resume_last_channel_summary">تشغيل آخر قناة تمت مشاهدتها عند فتح التطبيق</string>
+
+    <string name="auto_pip">صورة داخل صورة</string>
+
+    <string name="auto_pip_summary">تابع المشاهدة في نافذة صغيرة عند مغادرة التطبيق</string>
+
+    <string name="about">حول</string>
+
+    <string name="contact_support">التواصل والدعم</string>
+
+    <string name="rate_app">قيّم التطبيق</string>
+
+    <string name="share_app">مشاركة التطبيق</string>
+
+    <string name="share_text">شاهد القنوات المباشرة على Arram Play: %1$s</string>
+
+    <string name="version">الإصدار</string>
+
+    <string name="version_label">الإصدار %1$s</string>
+
+    <string name="no_app_found">لم يتم العثور على تطبيق لإكمال هذا الإجراء</string>
+
+    <string name="no_app_found_for">لم يتم العثور على تطبيق لفتح %1$s</string>
+
+    <string name="loading">جارٍ التحميل…</string>
 </resources>

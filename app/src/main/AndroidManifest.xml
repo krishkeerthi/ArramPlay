@@ -8,7 +8,12 @@
     <uses-feature android:name="android.hardware.touchscreen"
         android:required="false" />
 
-    <uses-feature android:name="android.software.leanback"
+    <!-- android.software.leanback is declared only in src/tv: declaring it here (even as
+         required="false") makes Play treat the mobile build as a TV build that lacks a
+         LEANBACK_LAUNCHER activity, which fails TV review. -->
+
+    <!-- PiP is optional: the app gracefully no-ops on devices without it (e.g. Android TV). -->
+    <uses-feature android:name="android.software.picture_in_picture"
         android:required="false"/>
 
 <!--    <uses-feature android:name="android.hardware.type.watch" />-->
@@ -18,12 +23,11 @@
         android:banner="@drawable/arrambanner"
         android:dataExtractionRules="@xml/data_extraction_rules"
         android:fullBackupContent="@xml/backup_rules"
-        android:icon="@drawable/arramicon"
+        android:icon="@mipmap/arramlauncher"
         android:label="@string/app_name"
-        android:roundIcon="@drawable/arramicon"
+        android:roundIcon="@mipmap/arramlauncher"
         android:supportsRtl="true"
         android:theme="@style/Theme.VideoPlayer"
-        android:largeHeap="true"
         tools:targetApi="31">
 <!--        <meta-data-->
 <!--            android:name="com.google.android.wearable.standalone"-->
@@ -36,7 +40,10 @@
         <activity
             android:name=".MainActivity"
             android:exported="true"
-            android:theme="@style/Theme.VideoPlayer">
+            android:supportsPictureInPicture="true"
+            android:configChanges="screenSize|smallestScreenSize|screenLayout|orientation|keyboard|keyboardHidden|navigation|uiMode|density"
+            android:launchMode="singleTask"
+            android:theme="@style/Theme.VideoPlayer.Starting">
             <!-- Launcher intent-filter is supplied by the per-flavor manifest
                  (src/mobile/AndroidManifest.xml, src/tv/AndroidManifest.xml) -->
         </activity>

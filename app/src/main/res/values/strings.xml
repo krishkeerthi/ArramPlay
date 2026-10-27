@@ -1,13 +1,71 @@
 <resources>
     <string name="app_name">Arram Play</string>
-    <string name="about_us">"About Us"</string>
-    <string name="app_icon">"App Icon"</string>
-    <string name="back_arrow">"Back arrow"</string>
-    <string name="youtube">"Youtube"</string>
-    <string name="instagram">"Instagram"</string>
-    <string name="email_at">"Email at"</string>
-    <string name="contact_us">"Contact Us"</string>
-    <string name="tv_image">""TV Image""</string>
-    <string name="app_description">"We are dedicated to providing the best experience for our viewers. Feel free to reach out!"</string>
-    <string name="rights_reserved">"© 2024 Arram Play. All Rights Reserved."</string>
+    <string name="about_us">About Us</string>
+    <string name="app_icon">App Icon</string>
+    <string name="back_arrow">Back</string>
+    <string name="youtube">YouTube</string>
+    <string name="instagram">Instagram</string>
+    <string name="email_at">Email us</string>
+    <string name="contact_us">Call us</string>
+    <string name="tv_image">TV Image</string>
+    <string name="app_description">We are dedicated to providing the best experience for our viewers. Feel free to reach out!</string>
+    <string name="rights_reserved">© %1$d Arram Play. All Rights Reserved.</string>
+
+    <!-- Channels -->
+    <string name="channel_arram">Arram TV</string>
+    <string name="channel_rr">RR Channel</string>
+    <string name="channel_live_updates">Live Updates</string>
+    <string name="channel_number">Channel %1$d</string>
+    <string name="channel_subtitle">Channel %1$d · Streaming live now</string>
+
+    <!-- Home -->
+    <string name="live">LIVE</string>
+    <string name="featured">Featured</string>
+    <string name="continue_watching">Continue watching</string>
+    <string name="all_channels">Channels</string>
+    <string name="watch_now">Watch now</string>
+    <string name="offline_message">You\'re offline. Check your internet connection.</string>
+
+    <!-- Player -->
+    <string name="play">Play</string>
+    <string name="pause">Pause</string>
+    <string name="next_channel">Next channel</string>
+    <string name="previous_channel">Previous channel</string>
+    <string name="picture_in_picture">Picture-in-picture</string>
+    <string name="video_scale_cycle">Video scaling: %1$s</string>
+    <string name="reconnecting">Reconnecting…</string>
+    <string name="waiting_for_network">Waiting for network…</string>
+    <string name="playback_error_title">Can\'t play this channel</string>
+    <string name="playback_error_message">The stream is unavailable right now. Please try again in a moment.</string>
+    <string name="retry">Retry</string>
+    <string name="back">Back</string>
+
+    <!-- Settings -->
+    <string name="settings">Settings</string>
+    <string name="appearance">Appearance</string>
+    <string name="theme">Theme</string>
+    <string name="theme_system">System</string>
+    <string name="theme_light">Light</string>
+    <string name="theme_dark">Dark</string>
+    <string name="dynamic_color">Dynamic color</string>
+    <string name="dynamic_color_summary">Use colors from your wallpaper</string>
+    <string name="playback">Playback</string>
+    <string name="video_scale">Video scaling</string>
+    <string name="video_scale_fit">Fit</string>
+    <string name="video_scale_fill">Stretch</string>
+    <string name="video_scale_zoom">Crop</string>
+    <string name="resume_last_channel">Resume last channel</string>
+    <string name="resume_last_channel_summary">Start playing the last watched channel when the app opens</string>
+    <string name="auto_pip">Picture-in-picture</string>
+    <string name="auto_pip_summary">Keep watching in a small window when you leave the app</string>
+    <string name="about">About</string>
+    <string name="contact_support">Contact &amp; support</string>
+    <string name="rate_app">Rate the app</string>
+    <string name="share_app">Share the app</string>
+    <string name="share_text">Watch Arram Play live channels: %1$s</string>
+    <string name="version">Version</string>
+    <string name="version_label">Version %1$s</string>
+    <string name="no_app_found">No app found to complete this action</string>
+    <string name="no_app_found_for">No app found to open %1$s</string>
+    <string name="loading">Loading…</string>
 </resources>

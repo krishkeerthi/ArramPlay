@@ -6,20 +6,119 @@
 
     <string name="app_icon">Icona dell\'app</string>
 
-    <string name="back_arrow">Freccia indietro</string>
+    <string name="back_arrow">Indietro</string>
 
     <string name="youtube">Youtube</string>
 
     <string name="instagram">Profilo utente</string>
 
-    <string name="email_at">Invia un\'e-mail a</string>
+    <string name="email_at">Scrivici</string>
 
-    <string name="contact_us">Contattaci</string>
+    <string name="contact_us">Chiamaci</string>
 
     <string name="tv_image">Immagine televisiva</string>
 
     <string name="app_description">Ci impegniamo a fornire la migliore esperienza possibile ai nostri spettatori. Non esitate a contattarci!</string>
 
-    <string name="rights_reserved">© 2024 Arram Play. Tutti i diritti riservati.</string>
+    <string name="rights_reserved">© %1$d Arram Play. Tutti i diritti riservati.</string>
 
+    <string name="channel_arram">Arram TV</string>
+
+    <string name="channel_rr">RR Channel</string>
+
+    <string name="channel_live_updates">Aggiornamenti in diretta</string>
+
+    <string name="channel_number">Canale %1$d</string>
+
+    <string name="channel_subtitle">Canale %1$d · In diretta ora</string>
+
+    <string name="live">LIVE</string>
+
+    <string name="featured">In evidenza</string>
+
+    <string name="continue_watching">Continua a guardare</string>
+
+    <string name="all_channels">Canali</string>
+
+    <string name="watch_now">Guarda ora</string>
+
+    <string name="offline_message">Sei offline. Controlla la connessione a Internet.</string>
+
+    <string name="play">Riproduci</string>
+
+    <string name="pause">Pausa</string>
+
+    <string name="next_channel">Canale successivo</string>
+
+    <string name="previous_channel">Canale precedente</string>
+
+    <string name="picture_in_picture">Picture in picture</string>
+
+    <string name="video_scale_cycle">Ridimensionamento video: %1$s</string>
+
+    <string name="reconnecting">Riconnessione…</string>
+
+    <string name="waiting_for_network">In attesa della rete…</string>
+
+    <string name="playback_error_title">Impossibile riprodurre questo canale</string>
+
+    <string name="playback_error_message">Lo streaming non è disponibile al momento. Riprova tra poco.</string>
+
+    <string name="retry">Riprova</string>
+
+    <string name="back">Indietro</string>
+
+    <string name="settings">Impostazioni</string>
+
+    <string name="appearance">Aspetto</string>
+
+    <string name="theme">Tema</string>
+
+    <string name="theme_system">Sistema</string>
+
+    <string name="theme_light">Chiaro</string>
+
+    <string name="theme_dark">Scuro</string>
+
+    <string name="dynamic_color">Colori dinamici</string>
+
+    <string name="dynamic_color_summary">Usa i colori del tuo sfondo</string>
+
+    <string name="playback">Riproduzione</string>
+
+    <string name="video_scale">Ridimensionamento video</string>
+
+    <string name="video_scale_fit">Adatta</string>
+
+    <string name="video_scale_fill">Allunga</string>
+
+    <string name="video_scale_zoom">Ritaglia</string>
+
+    <string name="resume_last_channel">Riprendi ultimo canale</string>
+
+    <string name="resume_last_channel_summary">Riproduci l\'ultimo canale guardato all\'apertura dell\'app</string>
+
+    <string name="auto_pip">Picture in picture</string>
+
+    <string name="auto_pip_summary">Continua a guardare in una piccola finestra quando esci dall\'app</string>
+
+    <string name="about">Informazioni</string>
+
+    <string name="contact_support">Contatti e assistenza</string>
+
+    <string name="rate_app">Valuta l\'app</string>
+
+    <string name="share_app">Condividi l\'app</string>
+
+    <string name="share_text">Guarda i canali in diretta di Arram Play: %1$s</string>
+
+    <string name="version">Versione</string>
+
+    <string name="version_label">Versione %1$s</string>
+
+    <string name="no_app_found">Nessuna app trovata per completare questa azione</string>
+
+    <string name="no_app_found_for">Nessuna app trovata per aprire %1$s</string>
+
+    <string name="loading">Caricamento…</string>
 </resources>

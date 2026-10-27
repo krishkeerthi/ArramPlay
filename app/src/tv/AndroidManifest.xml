@@ -11,7 +11,16 @@
         android:required="true" />
 
     <application>
-        <activity android:name=".MainActivity">
+        <!-- Explicit banner/icon on the leanback-launcher activity. The TV launcher and
+             Play Store TV reviewer pick up the activity-level banner first; without it
+             they fall back to displaying the (square) icon in the rectangular tile,
+             which is what triggered the "icon does not fill the entire icon space"
+             rejection on Play TV review. -->
+        <activity
+            android:name=".MainActivity"
+            android:exported="true"
+            android:banner="@drawable/arrambanner"
+            android:icon="@mipmap/arramlauncher">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                 <category android:name="android.intent.category.LEANBACK_LAUNCHER" />

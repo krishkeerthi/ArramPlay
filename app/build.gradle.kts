@@ -1,9 +1,10 @@
 import java.util.Properties
+import org.jetbrains.kotlin.gradle.dsl.JvmTarget
 
 plugins {
     alias(libs.plugins.android.application)
-    alias(libs.plugins.jetbrains.kotlin.android)
-    kotlin("plugin.serialization") version "1.6.0"
+    alias(libs.plugins.kotlin.compose)
+    alias(libs.plugins.kotlin.serialization)
 }
 
 val localProps = Properties().apply {
@@ -14,14 +15,14 @@ fun secret(key: String): String = localProps.getProperty(key, "")
 
 android {
     namespace = "com.krish.videoplayer"
-    compileSdk = 36
+    compileSdk = 37
 
     defaultConfig {
         applicationId = "com.krish.videoplayer"
         minSdk = 24
         targetSdk = 36
-        versionCode = 7
-        versionName = "2.1"
+        versionCode = 11
+        versionName = "2.5"
 
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
         vectorDrawables {
@@ -36,6 +37,11 @@ android {
     }
 
     buildTypes {
+        debug {
+            // Lets a debug build sit next to the Play Store install on the same device.
+            applicationIdSuffix = ".debug"
+            versionNameSuffix = "-debug"
+        }
         release {
             isMinifyEnabled = true
             isShrinkResources = true
@@ -48,29 +54,29 @@ android {
 
     flavorDimensions += "formFactor"
     productFlavors {
+        // Path B: both flavors share applicationId "com.krish.videoplayer" so they
+        // upload to the same Play Console listing. Uniqueness within the listing is
+        // achieved by giving the tv flavor a non-overlapping versionCode range.
         create("mobile") {
             dimension = "formFactor"
-            // Keeps the existing applicationId so the live Play listing is unaffected.
+            // versionCode inherited from defaultConfig (currently 11).
         }
         create("tv") {
             dimension = "formFactor"
-            applicationIdSuffix = ".tv"
-            versionNameSuffix = "-tv"
+            // Offset keeps tv builds permanently distinct from mobile —
+            // bump defaultConfig.versionCode for mobile, this expression auto-tracks.
+            // Bump this offset to release a tv-only build without touching mobile.
+            versionCode = (defaultConfig.versionCode ?: 1) + 10_001
+            versionName = "2.6-tv"
         }
     }
     compileOptions {
-        sourceCompatibility = JavaVersion.VERSION_1_8
-        targetCompatibility = JavaVersion.VERSION_1_8
-    }
-    kotlinOptions {
-        jvmTarget = "1.8"
+        sourceCompatibility = JavaVersion.VERSION_17
+        targetCompatibility = JavaVersion.VERSION_17
     }
     buildFeatures {
         compose = true
         buildConfig = true
-    }
-    composeOptions {
-        kotlinCompilerExtensionVersion = "1.5.1"
     }
     packaging {
         resources {
@@ -93,28 +99,35 @@ android {
     }
 }
 
-dependencies {
+kotlin {
+    compilerOptions {
+        jvmTarget.set(JvmTarget.JVM_17)
+    }
+}
 
+dependencies {
     implementation(libs.androidx.core.ktx)
+    implementation(libs.androidx.core.splashscreen)
     implementation(libs.androidx.lifecycle.runtime.ktx)
+    implementation(libs.androidx.lifecycle.runtime.compose)
     implementation(libs.androidx.activity.compose)
     implementation(platform(libs.androidx.compose.bom))
     implementation(libs.androidx.ui)
     implementation(libs.androidx.ui.graphics)
     implementation(libs.androidx.ui.tooling.preview)
     implementation(libs.androidx.material3)
+    implementation(libs.androidx.material.icons.extended)
     implementation(libs.androidx.media3.exoplayer)
+    implementation(libs.androidx.media3.exoplayer.hls)
     implementation(libs.androidx.media3.exoplayer.rtsp)
     implementation(libs.androidx.media3.datasource.rtmp)
     implementation(libs.androidx.media3.ui)
-    implementation(libs.media3.exoplayer)
+    implementation(libs.androidx.media3.session)
     implementation(libs.androidx.navigation.compose)
+    implementation(libs.androidx.datastore.preferences)
     implementation(libs.kotlinx.serialization)
-    implementation(libs.androidx.tools.core)
-    implementation(libs.android.play.integrity)
-    implementation(libs.androidx.leanback)
     implementation(libs.app.update.ktx)
-//    implementation(libs.androidx.wear)
+    implementation(libs.androidx.fragment)
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)
     androidTestImplementation(libs.androidx.espresso.core)
@@ -122,7 +135,4 @@ dependencies {
     androidTestImplementation(libs.androidx.ui.test.junit4)
     debugImplementation(libs.androidx.ui.tooling)
     debugImplementation(libs.androidx.ui.test.manifest)
-    implementation(kotlin("script-runtime"))
-    implementation(libs.androidx.tv.foundation)
-    implementation(libs.androidx.tv.material)
 }

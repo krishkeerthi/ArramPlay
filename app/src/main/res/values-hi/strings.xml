@@ -6,20 +6,119 @@
 
     <string name="app_icon">ऐप आइकन</string>
 
-    <string name="back_arrow">पीछे तीर</string>
+    <string name="back_arrow">वापस</string>
 
     <string name="youtube">यूट्यूब</string>
 
     <string name="instagram">Instagram</string>
 
-    <string name="email_at">ईमेल करें</string>
+    <string name="email_at">हमें ईमेल करें</string>
 
-    <string name="contact_us">हमसे संपर्क करें</string>
+    <string name="contact_us">हमें कॉल करें</string>
 
     <string name="tv_image">टीवी छवि</string>
 
     <string name="app_description">हम अपने दर्शकों को सर्वोत्तम अनुभव प्रदान करने के लिए समर्पित हैं. बेझिझक संपर्क करें!</string>
 
-    <string name="rights_reserved">© 2024 अर्रम प्ले. सर्वाधिकार सुरक्षित.</string>
+    <string name="rights_reserved">© %1$d अर्रम प्ले. सर्वाधिकार सुरक्षित.</string>
 
+    <string name="channel_arram">Arram TV</string>
+
+    <string name="channel_rr">RR Channel</string>
+
+    <string name="channel_live_updates">लाइव अपडेट</string>
+
+    <string name="channel_number">चैनल %1$d</string>
+
+    <string name="channel_subtitle">चैनल %1$d · अभी लाइव स्ट्रीमिंग</string>
+
+    <string name="live">लाइव</string>
+
+    <string name="featured">विशेष</string>
+
+    <string name="continue_watching">देखना जारी रखें</string>
+
+    <string name="all_channels">चैनल</string>
+
+    <string name="watch_now">अभी देखें</string>
+
+    <string name="offline_message">आप ऑफ़लाइन हैं। अपना इंटरनेट कनेक्शन जांचें।</string>
+
+    <string name="play">चलाएं</string>
+
+    <string name="pause">रोकें</string>
+
+    <string name="next_channel">अगला चैनल</string>
+
+    <string name="previous_channel">पिछला चैनल</string>
+
+    <string name="picture_in_picture">पिक्चर-इन-पिक्चर</string>
+
+    <string name="video_scale_cycle">वीडियो स्केलिंग: %1$s</string>
+
+    <string name="reconnecting">फिर से कनेक्ट हो रहा है…</string>
+
+    <string name="waiting_for_network">नेटवर्क का इंतज़ार है…</string>
+
+    <string name="playback_error_title">यह चैनल नहीं चल सकता</string>
+
+    <string name="playback_error_message">स्ट्रीम अभी उपलब्ध नहीं है। कृपया कुछ देर बाद फिर से कोशिश करें।</string>
+
+    <string name="retry">फिर से कोशिश करें</string>
+
+    <string name="back">वापस</string>
+
+    <string name="settings">सेटिंग</string>
+
+    <string name="appearance">दिखावट</string>
+
+    <string name="theme">थीम</string>
+
+    <string name="theme_system">सिस्टम</string>
+
+    <string name="theme_light">लाइट</string>
+
+    <string name="theme_dark">डार्क</string>
+
+    <string name="dynamic_color">डायनैमिक रंग</string>
+
+    <string name="dynamic_color_summary">अपने वॉलपेपर के रंगों का इस्तेमाल करें</string>
+
+    <string name="playback">प्लेबैक</string>
+
+    <string name="video_scale">वीडियो स्केलिंग</string>
+
+    <string name="video_scale_fit">फ़िट</string>
+
+    <string name="video_scale_fill">फैलाएं</string>
+
+    <string name="video_scale_zoom">क्रॉप</string>
+
+    <string name="resume_last_channel">पिछला चैनल फिर से शुरू करें</string>
+
+    <string name="resume_last_channel_summary">ऐप खुलने पर पिछली बार देखा गया चैनल चलाएं</string>
+
+    <string name="auto_pip">पिक्चर-इन-पिक्चर</string>
+
+    <string name="auto_pip_summary">ऐप छोड़ने पर छोटी विंडो में देखना जारी रखें</string>
+
+    <string name="about">जानकारी</string>
+
+    <string name="contact_support">संपर्क और सहायता</string>
+
+    <string name="rate_app">ऐप को रेटिंग दें</string>
+
+    <string name="share_app">ऐप शेयर करें</string>
+
+    <string name="share_text">Arram Play पर लाइव चैनल देखें: %1$s</string>
+
+    <string name="version">वर्शन</string>
+
+    <string name="version_label">वर्शन %1$s</string>
+
+    <string name="no_app_found">यह कार्रवाई पूरी करने के लिए कोई ऐप नहीं मिला</string>
+
+    <string name="no_app_found_for">%1$s खोलने के लिए कोई ऐप नहीं मिला</string>
+
+    <string name="loading">लोड हो रहा है…</string>
 </resources>
