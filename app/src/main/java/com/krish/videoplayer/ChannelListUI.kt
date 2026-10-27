@@ -198,7 +198,9 @@ fun ChannelsPreviewLandscape(navController: NavController, focusRequester: Focus
                 modifier = Modifier.fillMaxSize(),
             )
         }
-        // Scrims: left-to-right for the details column, bottom-up for the channel row.
+        // Scrims: left-to-right for the details column, bottom-up for the channel row,
+        // top-down for the top bar (its right-hand actions otherwise sit on bare artwork,
+        // which made them unreadable in the light theme).
         Box(
             Modifier
                 .fillMaxSize()
@@ -213,9 +215,15 @@ fun ChannelsPreviewLandscape(navController: NavController, focusRequester: Focus
                         0.4f to Color.Transparent,
                         1f to background,
                     )
+                    val top = Brush.verticalGradient(
+                        0f to background.copy(alpha = 0.92f),
+                        0.14f to background.copy(alpha = 0.75f),
+                        0.3f to Color.Transparent,
+                    )
                     onDrawBehind {
                         drawRect(horizontal)
                         drawRect(vertical)
+                        drawRect(top)
                     }
                 }
         )
