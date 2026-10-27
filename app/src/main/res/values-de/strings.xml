@@ -6,20 +6,119 @@
 
     <string name="app_icon">App-Symbol</string>
 
-    <string name="back_arrow">Zurück-Pfeil</string>
+    <string name="back_arrow">Zurück</string>
 
     <string name="youtube">Youtube</string>
 
     <string name="instagram">Instagram</string>
 
-    <string name="email_at">E-Mail an</string>
+    <string name="email_at">E-Mail senden</string>
 
-    <string name="contact_us">Kontaktieren Sie uns</string>
+    <string name="contact_us">Anrufen</string>
 
     <string name="tv_image">TV-Bild</string>
 
     <string name="app_description">Wir sind bestrebt, unseren Zuschauern das beste Erlebnis zu bieten. Melden Sie sich gerne!</string>
 
-    <string name="rights_reserved">© 2024 Arram Play. Alle Rechte vorbehalten.</string>
+    <string name="rights_reserved">© %1$d Arram Play. Alle Rechte vorbehalten.</string>
 
+    <string name="channel_arram">Arram TV</string>
+
+    <string name="channel_rr">RR Channel</string>
+
+    <string name="channel_live_updates">Live-Updates</string>
+
+    <string name="channel_number">Kanal %1$d</string>
+
+    <string name="channel_subtitle">Kanal %1$d · Jetzt live</string>
+
+    <string name="live">LIVE</string>
+
+    <string name="featured">Empfohlen</string>
+
+    <string name="continue_watching">Weiterschauen</string>
+
+    <string name="all_channels">Kanäle</string>
+
+    <string name="watch_now">Jetzt ansehen</string>
+
+    <string name="offline_message">Sie sind offline. Überprüfen Sie Ihre Internetverbindung.</string>
+
+    <string name="play">Abspielen</string>
+
+    <string name="pause">Pause</string>
+
+    <string name="next_channel">Nächster Kanal</string>
+
+    <string name="previous_channel">Vorheriger Kanal</string>
+
+    <string name="picture_in_picture">Bild-im-Bild</string>
+
+    <string name="video_scale_cycle">Videoskalierung: %1$s</string>
+
+    <string name="reconnecting">Verbindung wird wiederhergestellt…</string>
+
+    <string name="waiting_for_network">Warten auf Netzwerk…</string>
+
+    <string name="playback_error_title">Dieser Kanal kann nicht abgespielt werden</string>
+
+    <string name="playback_error_message">Der Stream ist derzeit nicht verfügbar. Bitte versuchen Sie es gleich noch einmal.</string>
+
+    <string name="retry">Wiederholen</string>
+
+    <string name="back">Zurück</string>
+
+    <string name="settings">Einstellungen</string>
+
+    <string name="appearance">Darstellung</string>
+
+    <string name="theme">Design</string>
+
+    <string name="theme_system">System</string>
+
+    <string name="theme_light">Hell</string>
+
+    <string name="theme_dark">Dunkel</string>
+
+    <string name="dynamic_color">Dynamische Farben</string>
+
+    <string name="dynamic_color_summary">Farben Ihres Hintergrundbilds verwenden</string>
+
+    <string name="playback">Wiedergabe</string>
+
+    <string name="video_scale">Videoskalierung</string>
+
+    <string name="video_scale_fit">Anpassen</string>
+
+    <string name="video_scale_fill">Strecken</string>
+
+    <string name="video_scale_zoom">Zuschneiden</string>
+
+    <string name="resume_last_channel">Letzten Kanal fortsetzen</string>
+
+    <string name="resume_last_channel_summary">Beim Öffnen der App den zuletzt angesehenen Kanal abspielen</string>
+
+    <string name="auto_pip">Bild-im-Bild</string>
+
+    <string name="auto_pip_summary">In einem kleinen Fenster weiterschauen, wenn Sie die App verlassen</string>
+
+    <string name="about">Info</string>
+
+    <string name="contact_support">Kontakt &amp; Support</string>
+
+    <string name="rate_app">App bewerten</string>
+
+    <string name="share_app">App teilen</string>
+
+    <string name="share_text">Live-Kanäle auf Arram Play ansehen: %1$s</string>
+
+    <string name="version">Version</string>
+
+    <string name="version_label">Version %1$s</string>
+
+    <string name="no_app_found">Keine App gefunden, um diese Aktion auszuführen</string>
+
+    <string name="no_app_found_for">Keine App gefunden, um %1$s zu öffnen</string>
+
+    <string name="loading">Wird geladen…</string>
 </resources>

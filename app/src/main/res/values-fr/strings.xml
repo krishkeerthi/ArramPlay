@@ -6,20 +6,119 @@
 
     <string name="app_icon">Icône de l\'application</string>
 
-    <string name="back_arrow">Flèche de retour</string>
+    <string name="back_arrow">Retour</string>
 
     <string name="youtube">Youtube</string>
 
     <string name="instagram">Instagram</string>
 
-    <string name="email_at">Envoyez un courriel à</string>
+    <string name="email_at">Écrivez-nous</string>
 
-    <string name="contact_us">Contactez-nous</string>
+    <string name="contact_us">Appelez-nous</string>
 
     <string name="tv_image">Image TV</string>
 
     <string name="app_description">Nous nous engageons à offrir la meilleure expérience à nos téléspectateurs. N\'hésitez pas à nous contacter !</string>
 
-    <string name="rights_reserved">© 2024 Arram Play. Tous droits réservés.</string>
+    <string name="rights_reserved">© %1$d Arram Play. Tous droits réservés.</string>
 
+    <string name="channel_arram">Arram TV</string>
+
+    <string name="channel_rr">RR Channel</string>
+
+    <string name="channel_live_updates">Infos en direct</string>
+
+    <string name="channel_number">Chaîne %1$d</string>
+
+    <string name="channel_subtitle">Chaîne %1$d · En direct maintenant</string>
+
+    <string name="live">DIRECT</string>
+
+    <string name="featured">À la une</string>
+
+    <string name="continue_watching">Reprendre la lecture</string>
+
+    <string name="all_channels">Chaînes</string>
+
+    <string name="watch_now">Regarder</string>
+
+    <string name="offline_message">Vous êtes hors ligne. Vérifiez votre connexion Internet.</string>
+
+    <string name="play">Lecture</string>
+
+    <string name="pause">Pause</string>
+
+    <string name="next_channel">Chaîne suivante</string>
+
+    <string name="previous_channel">Chaîne précédente</string>
+
+    <string name="picture_in_picture">Image dans l\'image</string>
+
+    <string name="video_scale_cycle">Format vidéo : %1$s</string>
+
+    <string name="reconnecting">Reconnexion…</string>
+
+    <string name="waiting_for_network">En attente du réseau…</string>
+
+    <string name="playback_error_title">Impossible de lire cette chaîne</string>
+
+    <string name="playback_error_message">Le flux est indisponible pour le moment. Veuillez réessayer dans un instant.</string>
+
+    <string name="retry">Réessayer</string>
+
+    <string name="back">Retour</string>
+
+    <string name="settings">Paramètres</string>
+
+    <string name="appearance">Apparence</string>
+
+    <string name="theme">Thème</string>
+
+    <string name="theme_system">Système</string>
+
+    <string name="theme_light">Clair</string>
+
+    <string name="theme_dark">Sombre</string>
+
+    <string name="dynamic_color">Couleurs dynamiques</string>
+
+    <string name="dynamic_color_summary">Utiliser les couleurs de votre fond d\'écran</string>
+
+    <string name="playback">Lecture</string>
+
+    <string name="video_scale">Format vidéo</string>
+
+    <string name="video_scale_fit">Ajuster</string>
+
+    <string name="video_scale_fill">Étirer</string>
+
+    <string name="video_scale_zoom">Rogner</string>
+
+    <string name="resume_last_channel">Reprendre la dernière chaîne</string>
+
+    <string name="resume_last_channel_summary">Lancer la dernière chaîne regardée à l\'ouverture de l\'application</string>
+
+    <string name="auto_pip">Image dans l\'image</string>
+
+    <string name="auto_pip_summary">Continuer à regarder dans une petite fenêtre lorsque vous quittez l\'application</string>
+
+    <string name="about">À propos</string>
+
+    <string name="contact_support">Contact &amp; assistance</string>
+
+    <string name="rate_app">Noter l\'application</string>
+
+    <string name="share_app">Partager l\'application</string>
+
+    <string name="share_text">Regardez les chaînes en direct sur Arram Play : %1$s</string>
+
+    <string name="version">Version</string>
+
+    <string name="version_label">Version %1$s</string>
+
+    <string name="no_app_found">Aucune application trouvée pour effectuer cette action</string>
+
+    <string name="no_app_found_for">Aucune application trouvée pour ouvrir %1$s</string>
+
+    <string name="loading">Chargement…</string>
 </resources>

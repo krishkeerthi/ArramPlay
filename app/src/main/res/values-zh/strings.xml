@@ -6,20 +6,119 @@
 
     <string name="app_icon">应用程序图标</string>
 
-    <string name="back_arrow">返回箭头</string>
+    <string name="back_arrow">返回</string>
 
     <string name="youtube">YouTube</string>
 
     <string name="instagram">Instagram</string>
 
-    <string name="email_at">邮箱</string>
+    <string name="email_at">发送邮件</string>
 
-    <string name="contact_us">联系我们</string>
+    <string name="contact_us">致电我们</string>
 
     <string name="tv_image">电视图像</string>
 
     <string name="app_description">我们致力于为观众提供最佳体验。欢迎随时联系我们！</string>
 
-    <string name="rights_reserved">© 2024 阿拉姆游戏。版权所有。</string>
+    <string name="rights_reserved">© %1$d 阿拉姆游戏。版权所有。</string>
 
+    <string name="channel_arram">Arram TV</string>
+
+    <string name="channel_rr">RR Channel</string>
+
+    <string name="channel_live_updates">实时资讯</string>
+
+    <string name="channel_number">频道 %1$d</string>
+
+    <string name="channel_subtitle">频道 %1$d · 正在直播</string>
+
+    <string name="live">直播</string>
+
+    <string name="featured">精选</string>
+
+    <string name="continue_watching">继续观看</string>
+
+    <string name="all_channels">频道</string>
+
+    <string name="watch_now">立即观看</string>
+
+    <string name="offline_message">您已离线。请检查网络连接。</string>
+
+    <string name="play">播放</string>
+
+    <string name="pause">暂停</string>
+
+    <string name="next_channel">下一个频道</string>
+
+    <string name="previous_channel">上一个频道</string>
+
+    <string name="picture_in_picture">画中画</string>
+
+    <string name="video_scale_cycle">视频缩放：%1$s</string>
+
+    <string name="reconnecting">正在重新连接…</string>
+
+    <string name="waiting_for_network">正在等待网络…</string>
+
+    <string name="playback_error_title">无法播放此频道</string>
+
+    <string name="playback_error_message">直播流暂时不可用，请稍后重试。</string>
+
+    <string name="retry">重试</string>
+
+    <string name="back">返回</string>
+
+    <string name="settings">设置</string>
+
+    <string name="appearance">外观</string>
+
+    <string name="theme">主题</string>
+
+    <string name="theme_system">系统</string>
+
+    <string name="theme_light">浅色</string>
+
+    <string name="theme_dark">深色</string>
+
+    <string name="dynamic_color">动态取色</string>
+
+    <string name="dynamic_color_summary">使用壁纸中的颜色</string>
+
+    <string name="playback">播放</string>
+
+    <string name="video_scale">视频缩放</string>
+
+    <string name="video_scale_fit">适应</string>
+
+    <string name="video_scale_fill">拉伸</string>
+
+    <string name="video_scale_zoom">裁剪</string>
+
+    <string name="resume_last_channel">继续播放上次频道</string>
+
+    <string name="resume_last_channel_summary">打开应用时播放上次观看的频道</string>
+
+    <string name="auto_pip">画中画</string>
+
+    <string name="auto_pip_summary">离开应用时在小窗口中继续观看</string>
+
+    <string name="about">关于</string>
+
+    <string name="contact_support">联系与支持</string>
+
+    <string name="rate_app">为应用评分</string>
+
+    <string name="share_app">分享应用</string>
+
+    <string name="share_text">在 Arram Play 观看直播频道：%1$s</string>
+
+    <string name="version">版本</string>
+
+    <string name="version_label">版本 %1$s</string>
+
+    <string name="no_app_found">未找到可完成此操作的应用</string>
+
+    <string name="no_app_found_for">未找到可打开 %1$s 的应用</string>
+
+    <string name="loading">正在加载…</string>
 </resources>

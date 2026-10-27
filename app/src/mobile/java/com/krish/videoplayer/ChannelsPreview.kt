@@ -1,32 +1,25 @@
 package com.krish.videoplayer
 
 import android.content.res.Configuration
-import android.os.Build
-import android.view.Window
-import android.view.WindowInsets
-import android.view.WindowManager
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.LaunchedEffect
 import androidx.compose.runtime.remember
 import androidx.compose.ui.focus.FocusRequester
+import androidx.compose.ui.input.InputMode
 import androidx.compose.ui.platform.LocalConfiguration
-import androidx.core.view.WindowInsetsControllerCompat
+import androidx.compose.ui.platform.LocalInputModeManager
 import androidx.navigation.NavController
 
 @Composable
-fun ChannelsPreview(navController: NavController, window: Window) {
+fun ChannelsPreview(navController: NavController) {
     val configuration = LocalConfiguration.current
     val focusRequester = remember { FocusRequester() }
+    val inputModeManager = LocalInputModeManager.current
 
-    LaunchedEffect(Unit) {
-        focusRequester.requestFocus()
-        val insetsController = WindowInsetsControllerCompat(window, window.decorView)
-        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.R) {
-            insetsController.show(WindowInsets.Type.systemBars())
-        } else {
-            @Suppress("DEPRECATION")
-            window.clearFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN)
-        }
+    // Only pre-focus for keyboard / D-pad users (Chromebooks, tablets with keyboards);
+    // touch users would otherwise see a focus ring on launch.
+    LaunchedEffect(configuration.orientation) {
+        if (inputModeManager.inputMode == InputMode.Keyboard) runCatching { focusRequester.requestFocus() }
     }
 
     when (configuration.orientation) {

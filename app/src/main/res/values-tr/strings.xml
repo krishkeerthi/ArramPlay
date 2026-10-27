@@ -6,20 +6,119 @@
 
     <string name="app_icon">Uygulama simgesi</string>
 
-    <string name="back_arrow">Geri ok</string>
+    <string name="back_arrow">Geri</string>
 
     <string name="youtube">Youtube</string>
 
     <string name="instagram">Instagram</string>
 
-    <string name="email_at">E-posta adresi:</string>
+    <string name="email_at">E-posta gönderin</string>
 
-    <string name="contact_us">Bize Ulaşın</string>
+    <string name="contact_us">Bizi arayın</string>
 
     <string name="tv_image">TV Görüntüsü</string>
 
     <string name="app_description">İzleyicilerimize en iyi deneyimi sunmaya adadık kendimizi. Bize ulaşmaktan çekinmeyin!</string>
 
-    <string name="rights_reserved">© 2024 Arram Play. Her hakkı saklıdır.</string>
+    <string name="rights_reserved">© %1$d Arram Play. Her hakkı saklıdır.</string>
 
+    <string name="channel_arram">Arram TV</string>
+
+    <string name="channel_rr">RR Channel</string>
+
+    <string name="channel_live_updates">Canlı Güncellemeler</string>
+
+    <string name="channel_number">Kanal %1$d</string>
+
+    <string name="channel_subtitle">Kanal %1$d · Şu anda canlı</string>
+
+    <string name="live">CANLI</string>
+
+    <string name="featured">Öne çıkanlar</string>
+
+    <string name="continue_watching">İzlemeye devam et</string>
+
+    <string name="all_channels">Kanallar</string>
+
+    <string name="watch_now">Şimdi izle</string>
+
+    <string name="offline_message">Çevrimdışısınız. İnternet bağlantınızı kontrol edin.</string>
+
+    <string name="play">Oynat</string>
+
+    <string name="pause">Duraklat</string>
+
+    <string name="next_channel">Sonraki kanal</string>
+
+    <string name="previous_channel">Önceki kanal</string>
+
+    <string name="picture_in_picture">Pencere içinde pencere</string>
+
+    <string name="video_scale_cycle">Video ölçekleme: %1$s</string>
+
+    <string name="reconnecting">Yeniden bağlanılıyor…</string>
+
+    <string name="waiting_for_network">Ağ bekleniyor…</string>
+
+    <string name="playback_error_title">Bu kanal oynatılamıyor</string>
+
+    <string name="playback_error_message">Yayın şu anda kullanılamıyor. Lütfen birazdan tekrar deneyin.</string>
+
+    <string name="retry">Tekrar dene</string>
+
+    <string name="back">Geri</string>
+
+    <string name="settings">Ayarlar</string>
+
+    <string name="appearance">Görünüm</string>
+
+    <string name="theme">Tema</string>
+
+    <string name="theme_system">Sistem</string>
+
+    <string name="theme_light">Açık</string>
+
+    <string name="theme_dark">Koyu</string>
+
+    <string name="dynamic_color">Dinamik renk</string>
+
+    <string name="dynamic_color_summary">Duvar kağıdınızdaki renkleri kullanın</string>
+
+    <string name="playback">Oynatma</string>
+
+    <string name="video_scale">Video ölçekleme</string>
+
+    <string name="video_scale_fit">Sığdır</string>
+
+    <string name="video_scale_fill">Uzat</string>
+
+    <string name="video_scale_zoom">Kırp</string>
+
+    <string name="resume_last_channel">Son kanaldan devam et</string>
+
+    <string name="resume_last_channel_summary">Uygulama açıldığında en son izlenen kanalı oynat</string>
+
+    <string name="auto_pip">Pencere içinde pencere</string>
+
+    <string name="auto_pip_summary">Uygulamadan çıktığınızda küçük bir pencerede izlemeye devam edin</string>
+
+    <string name="about">Hakkında</string>
+
+    <string name="contact_support">İletişim ve destek</string>
+
+    <string name="rate_app">Uygulamayı değerlendir</string>
+
+    <string name="share_app">Uygulamayı paylaş</string>
+
+    <string name="share_text">Arram Play canlı kanallarını izleyin: %1$s</string>
+
+    <string name="version">Sürüm</string>
+
+    <string name="version_label">Sürüm %1$s</string>
+
+    <string name="no_app_found">Bu işlemi tamamlayacak uygulama bulunamadı</string>
+
+    <string name="no_app_found_for">%1$s öğesini açacak uygulama bulunamadı</string>
+
+    <string name="loading">Yükleniyor…</string>
 </resources>

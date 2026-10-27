@@ -5,9 +5,10 @@ A single-codebase Jetpack Compose app that streams live RTMP/RTSP video channels
 ## Tech stack
 
 - **UI:** Jetpack Compose (Material 3) + `androidx.tv.foundation` / `androidx.tv.material` for the Leanback path
-- **Player:** ExoPlayer (Media3 1.10) with RTSP and RTMP datasources
+- **Player:** ExoPlayer (Media3 1.11) with RTMP, RTSP and HLS sources, MediaSession, PiP
 - **Navigation:** `navigation-compose` with `kotlinx.serialization` type-safe routes
-- **Min SDK:** 24 · **Target/Compile SDK:** 36 · **Java/Kotlin:** 1.8
+- **Build:** Gradle 9.8 · AGP 9.3 · Kotlin 2.4
+- **Min SDK:** 24 · **Target SDK:** 36 · **Compile SDK:** 37 · **Java/Kotlin:** 17
 
 ## Setup
 
@@ -26,7 +27,7 @@ cp local.properties.example local.properties
 #   RTMP_PATH_LIVEUPDATES=path/livetv
 ```
 
-`local.properties` is gitignored. The values are read at build time by `app/build.gradle.kts` and exposed to Kotlin via the generated `BuildConfig` class — `ChannelListUI.getStreamUrl` reads them from there.
+`local.properties` is gitignored. The values are read at build time by `app/build.gradle.kts` and exposed to Kotlin via the generated `BuildConfig` class — `Channels.getStreamUrl` reads them from there.
 
 ### 2. Open in Android Studio
 
@@ -56,10 +57,11 @@ There are two product flavors under `formFactor`:
 Single Activity, single NavHost. Three destinations, each declared as a top-level `@Serializable` route type so `navigation-compose`'s `toRoute()` reflection works:
 
 - `ChannelList` — start destination, grid of channels.
-- `Channel(url: String)` — full-screen player.
+- `Channel(channelId: Int)` — full-screen player.
+- `Settings` — theme, playback and about options.
 - `AboutUs`.
 
-`MainActivity` flips `requestedOrientation` per route — phones lock to landscape on the player, everything else uses unspecified. `isPhone()` distinguishes phone vs. tablet/TV via `UiModeManager` + `Configuration.SCREENLAYOUT_SIZE_*`. `ChannelListUI` then branches into `ChannelsPreviewPortrait` vs `ChannelsPreviewLandscape` composables — the TV path uses `androidx.tv` lazy grids and `FocusRequester` for D-pad focus.
+The player route locks phones to landscape; everything else uses unspecified. `ui/DeviceType.kt` resolves phone / tablet / TV. `ChannelListUI` provides `ChannelsPreviewPortrait` (phone portrait grid) and `ChannelsPreviewLandscape` (immersive lean-back home used by landscape phones, tablets and TV) — D-pad focus uses Compose foundation focus APIs and `FocusRequester`.
 
 Adding a new screen: create a `@Serializable` route type in its own file, add a `composable<Route>` block in `MainActivity`, pass `navController` and `window` through.
 
@@ -135,8 +137,12 @@ app/
 │   │   ├── ChannelList.kt       # @Serializable route
 │   │   ├── Channel.kt           # @Serializable route
 │   │   ├── AboutUs.kt           # @Serializable route
-│   │   ├── ChannelListUI.kt     # phone (portrait) + tablet/TV (landscape) UI
-│   │   ├── ChannelUI.kt         # ExoPlayer setup, RTMP/RTSP datasource selection
+│   │   ├── Channels.kt          # channel list + stream URLs
+│   │   ├── ChannelListUI.kt     # phone (portrait) + tablet/TV (landscape) home
+│   │   ├── ChannelUI.kt         # player: ExoPlayer, overlay, zapping, retry, PiP
+│   │   ├── SettingsUI.kt        # settings screen
+│   │   ├── settings/            # DataStore-backed AppSettings
+│   │   ├── ui/components/       # shared cards, LIVE badge, focus visuals
 │   │   └── ui/theme/            # Material 3 theme
 │   └── jniLibs/                 # 16 KB-aligned librtmp-jni.so per ABI
 gradle/libs.versions.toml         # version catalog

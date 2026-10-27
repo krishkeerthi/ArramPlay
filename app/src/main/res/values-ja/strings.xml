@@ -6,20 +6,119 @@
 
     <string name="app_icon">アプリアイコン</string>
 
-    <string name="back_arrow">戻る矢印</string>
+    <string name="back_arrow">戻る</string>
 
     <string name="youtube">ユーチューブ</string>
 
     <string name="instagram">インスタグラム</string>
 
-    <string name="email_at">メールアドレス</string>
+    <string name="email_at">メールで問い合わせ</string>
 
-    <string name="contact_us">お問い合わせ</string>
+    <string name="contact_us">電話で問い合わせ</string>
 
     <string name="tv_image">テレビ画像</string>
 
     <string name="app_description">私たちは視聴者に最高の体験を提供することに全力を尽くしています。お気軽にお問い合わせください！</string>
 
-    <string name="rights_reserved">© 2024 アラムプレイ。無断転載を禁じます。</string>
+    <string name="rights_reserved">© %1$d アラムプレイ。無断転載を禁じます。</string>
 
+    <string name="channel_arram">Arram TV</string>
+
+    <string name="channel_rr">RR Channel</string>
+
+    <string name="channel_live_updates">ライブ最新情報</string>
+
+    <string name="channel_number">チャンネル %1$d</string>
+
+    <string name="channel_subtitle">チャンネル %1$d · ライブ配信中</string>
+
+    <string name="live">ライブ</string>
+
+    <string name="featured">おすすめ</string>
+
+    <string name="continue_watching">続きを見る</string>
+
+    <string name="all_channels">チャンネル</string>
+
+    <string name="watch_now">今すぐ見る</string>
+
+    <string name="offline_message">オフラインです。インターネット接続を確認してください。</string>
+
+    <string name="play">再生</string>
+
+    <string name="pause">一時停止</string>
+
+    <string name="next_channel">次のチャンネル</string>
+
+    <string name="previous_channel">前のチャンネル</string>
+
+    <string name="picture_in_picture">ピクチャー イン ピクチャー</string>
+
+    <string name="video_scale_cycle">動画の表示サイズ: %1$s</string>
+
+    <string name="reconnecting">再接続しています…</string>
+
+    <string name="waiting_for_network">ネットワークを待機しています…</string>
+
+    <string name="playback_error_title">このチャンネルを再生できません</string>
+
+    <string name="playback_error_message">現在ストリームを利用できません。しばらくしてからもう一度お試しください。</string>
+
+    <string name="retry">再試行</string>
+
+    <string name="back">戻る</string>
+
+    <string name="settings">設定</string>
+
+    <string name="appearance">外観</string>
+
+    <string name="theme">テーマ</string>
+
+    <string name="theme_system">システム</string>
+
+    <string name="theme_light">ライト</string>
+
+    <string name="theme_dark">ダーク</string>
+
+    <string name="dynamic_color">ダイナミックカラー</string>
+
+    <string name="dynamic_color_summary">壁紙の色を使用します</string>
+
+    <string name="playback">再生</string>
+
+    <string name="video_scale">動画の表示サイズ</string>
+
+    <string name="video_scale_fit">フィット</string>
+
+    <string name="video_scale_fill">引き伸ばし</string>
+
+    <string name="video_scale_zoom">トリミング</string>
+
+    <string name="resume_last_channel">前回のチャンネルを再開</string>
+
+    <string name="resume_last_channel_summary">アプリを開いたときに最後に見たチャンネルを再生します</string>
+
+    <string name="auto_pip">ピクチャー イン ピクチャー</string>
+
+    <string name="auto_pip_summary">アプリを離れても小さなウィンドウで視聴を続けます</string>
+
+    <string name="about">アプリについて</string>
+
+    <string name="contact_support">お問い合わせとサポート</string>
+
+    <string name="rate_app">アプリを評価</string>
+
+    <string name="share_app">アプリを共有</string>
+
+    <string name="share_text">Arram Play でライブチャンネルを視聴しよう: %1$s</string>
+
+    <string name="version">バージョン</string>
+
+    <string name="version_label">バージョン %1$s</string>
+
+    <string name="no_app_found">この操作を完了できるアプリが見つかりません</string>
+
+    <string name="no_app_found_for">%1$s を開くアプリが見つかりません</string>
+
+    <string name="loading">読み込み中…</string>
 </resources>

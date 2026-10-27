@@ -6,20 +6,119 @@
 
     <string name="app_icon">앱 아이콘</string>
 
-    <string name="back_arrow">뒤로 화살표</string>
+    <string name="back_arrow">뒤로</string>
 
     <string name="youtube">유튜브</string>
 
     <string name="instagram">인스타그램</string>
 
-    <string name="email_at">이메일로</string>
+    <string name="email_at">이메일 보내기</string>
 
-    <string name="contact_us">문의하기</string>
+    <string name="contact_us">전화하기</string>
 
     <string name="tv_image">TV 이미지</string>
 
     <string name="app_description">저희는 시청자 여러분께 최고의 경험을 제공하기 위해 최선을 다하고 있습니다. 언제든지 문의하세요!</string>
 
-    <string name="rights_reserved">© 2024 아람 플레이. 모든 권리는 보호됩니다.</string>
+    <string name="rights_reserved">© %1$d 아람 플레이. 모든 권리는 보호됩니다.</string>
 
+    <string name="channel_arram">Arram TV</string>
+
+    <string name="channel_rr">RR Channel</string>
+
+    <string name="channel_live_updates">실시간 소식</string>
+
+    <string name="channel_number">채널 %1$d</string>
+
+    <string name="channel_subtitle">채널 %1$d · 지금 실시간 방송 중</string>
+
+    <string name="live">LIVE</string>
+
+    <string name="featured">추천</string>
+
+    <string name="continue_watching">이어서 보기</string>
+
+    <string name="all_channels">채널</string>
+
+    <string name="watch_now">지금 보기</string>
+
+    <string name="offline_message">오프라인 상태입니다. 인터넷 연결을 확인하세요.</string>
+
+    <string name="play">재생</string>
+
+    <string name="pause">일시중지</string>
+
+    <string name="next_channel">다음 채널</string>
+
+    <string name="previous_channel">이전 채널</string>
+
+    <string name="picture_in_picture">PIP 모드</string>
+
+    <string name="video_scale_cycle">동영상 크기 조정: %1$s</string>
+
+    <string name="reconnecting">다시 연결 중…</string>
+
+    <string name="waiting_for_network">네트워크 연결 대기 중…</string>
+
+    <string name="playback_error_title">이 채널을 재생할 수 없음</string>
+
+    <string name="playback_error_message">지금은 스트림을 사용할 수 없습니다. 잠시 후 다시 시도하세요.</string>
+
+    <string name="retry">다시 시도</string>
+
+    <string name="back">뒤로</string>
+
+    <string name="settings">설정</string>
+
+    <string name="appearance">화면 스타일</string>
+
+    <string name="theme">테마</string>
+
+    <string name="theme_system">시스템</string>
+
+    <string name="theme_light">라이트</string>
+
+    <string name="theme_dark">다크</string>
+
+    <string name="dynamic_color">다이내믹 컬러</string>
+
+    <string name="dynamic_color_summary">배경화면의 색상 사용</string>
+
+    <string name="playback">재생</string>
+
+    <string name="video_scale">동영상 크기 조정</string>
+
+    <string name="video_scale_fit">맞춤</string>
+
+    <string name="video_scale_fill">늘이기</string>
+
+    <string name="video_scale_zoom">자르기</string>
+
+    <string name="resume_last_channel">마지막 채널 이어서 재생</string>
+
+    <string name="resume_last_channel_summary">앱을 열 때 마지막으로 본 채널 재생</string>
+
+    <string name="auto_pip">PIP 모드</string>
+
+    <string name="auto_pip_summary">앱을 나가도 작은 창에서 계속 시청</string>
+
+    <string name="about">정보</string>
+
+    <string name="contact_support">문의 및 지원</string>
+
+    <string name="rate_app">앱 평가하기</string>
+
+    <string name="share_app">앱 공유하기</string>
+
+    <string name="share_text">Arram Play에서 실시간 채널 시청하기: %1$s</string>
+
+    <string name="version">버전</string>
+
+    <string name="version_label">버전 %1$s</string>
+
+    <string name="no_app_found">이 작업을 완료할 앱이 없습니다</string>
+
+    <string name="no_app_found_for">%1$s을(를) 열 수 있는 앱이 없습니다</string>
+
+    <string name="loading">로드 중…</string>
 </resources>
